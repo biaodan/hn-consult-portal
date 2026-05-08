@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor Asignado</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            background: #ffffff; 
+        }
+        .card { 
+            text-align: center; 
+            width: 90%; 
+            max-width: 360px; 
+            padding: 25px; 
+            box-sizing: border-box; 
+        }
+        
+        /* 顶部亲切客服图标 */
+        .top-icon { 
+            width: 70px; 
+            height: 70px; 
+            background: #E8F5E9; 
+            color: #2E7D32; 
+            font-size: 35px; 
+            line-height: 70px; 
+            border-radius: 50%; 
+            margin: 0 auto 20px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+        }
+
+        .title { 
+            font-size: 22px; 
+            font-weight: bold; 
+            color: #1a1a1a; 
+            margin-bottom: 20px; 
+        }
+        
+        .desc { 
+            font-size: 16px; 
+            color: #444; 
+            line-height: 1.8; 
+            margin-bottom: 30px; 
+            text-align: center; 
+        }
+        
+        /* WhatsApp 风格绿色按钮 */
+        .btn { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            background: #25D366; 
+            color: white; 
+            text-decoration: none; 
+            padding: 18px; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 19px; 
+            box-shadow: 0 4px 15px rgba(37,211,102,0.3); 
+            transition: transform 0.2s;
+        }
+        
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn:before { 
+            content: '💬'; 
+            margin-right: 10px; 
+            font-size: 20px; 
+        }
+        
+        /* 忙碌提示框 */
+        .busy-note { 
+            font-size: 13px; 
+            color: #d32f2f; 
+            margin-top: 30px; 
+            background: #fff5f5; 
+            padding: 12px; 
+            border-radius: 10px; 
+            line-height: 1.6; 
+            border: 1px dashed #feb2b2;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="top-icon">👋</div>
+
+        <div class="title">¿Todavía tienes dudas?</div>
+        
+        <div class="desc">
+            No hay ningún problema... Puedes contactarnos por <br>
+            <b>WhatsApp</b> para obtener más información. <br><br>
+            Esta podría ser una excelente oportunidad para tu futuro.
+        </div>
+        
+        <a href="https://svip1027.top/HSDF2566" class="btn">CONTÁCTANOS POR WHATSAPP</a>
+        
+        <div class="busy-note">
+            ⚠️ <b>¡Estamos recibiendo muchas consultas!</b> <br>
+            Si el enlace no abre, por favor intenta hacer clic 2 o 3 veces más.
+        </div>
+    </div>
+</body>
+</html>
